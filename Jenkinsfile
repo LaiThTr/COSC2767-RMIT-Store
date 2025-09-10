@@ -33,7 +33,7 @@ pipeline {
     
     post {
         failure {
-            mail to: 'your-email@example.com', 
+            mail to: 's41111540@my.rmit.edu.vn', 
                  subject: "Pipeline failed: ${currentBuild.fullDisplayName}", 
                  body: "Something went wrong with the build."
         }
